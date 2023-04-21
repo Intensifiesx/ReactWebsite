@@ -1,0 +1,61 @@
+.habits{
+    background-size: cover;
+    background-position: center;
+    background-color:aqua;
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.player{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(182, 182, 182, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+}
+
+.dailies{
+    background-size: cover;
+    background-position: center;
+    background-color:burlywood;
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.clean-button {
+    background-color: #0df347;
+    border: none;
+    color:black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.clean-button:hover {
+background-color: #6a6a6a;
+}
+
+.clean-button2 {
+    background-color:#c81717;
+    border: none;
+    color:black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.clean-button2:hover {
+background-color: #6a6a6a;
+}
