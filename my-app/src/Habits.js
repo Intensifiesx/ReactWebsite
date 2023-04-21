@@ -4,7 +4,7 @@ export default function Habits() {
   return (
     <section>
       <div className="habits textarea-wrap">
-        <h1>Habits</h1>
+        <h1 className="header-left">Habits</h1>
         <div>
           <input type="text" placeholder="Habit name" />
           <button className="clean-button">+</button>

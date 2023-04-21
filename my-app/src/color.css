@@ -5,11 +5,18 @@
     pad: 10px;
     border: 1px solid black;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-left{
+    text-align: left;
+    padding: 20px;
 }
 
 section{
     display: inline-block;
     width: 300px;
+    padding: 15px;
 }
 
 .textarea-wrap{
@@ -29,6 +36,7 @@ section{
     pad: 10px;
     border: 1px solid black;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .rewards{
@@ -38,6 +46,7 @@ section{
     pad: 10px;
     border: 1px solid black;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .player{
@@ -61,6 +70,7 @@ section{
     pad: 10px;
     border: 1px solid black;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .clean-button {

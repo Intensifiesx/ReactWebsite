@@ -4,7 +4,7 @@ export default function Todos() {
   return (
     <section>
       <div className="todos textarea-wrap">
-        <h1>To-Dos</h1>
+        <h1 className="header-left">To-Dos</h1>
         <div>
           <input type="text" placeholder="New To-Do" />
           <button className="clean-button">+</button>

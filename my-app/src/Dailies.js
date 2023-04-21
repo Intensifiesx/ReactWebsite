@@ -4,7 +4,7 @@ export default function Dailies() {
   return (
     <section>
       <div className="dailies textarea-wrap">
-        <h1>Dailies</h1>
+        <h1 className="header-left">Dailies</h1>
         <div>
           <input type="text" placeholder="New Daily" />
           <button className="clean-button">+</button>
