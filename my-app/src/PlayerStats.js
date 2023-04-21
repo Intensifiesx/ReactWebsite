@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function PlayerStas() {
+export default function PlayerStats() {
   return (
     <>
       <div className="player">
-        <h1>Player Stats</h1>
+        <h3>Player Stats</h3>
       </div>
     </>
   );

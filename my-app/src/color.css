@@ -7,6 +7,39 @@
     margin-bottom: 10px;
 }
 
+section{
+    display: inline-block;
+    width: 300px;
+}
+
+.textarea-wrap{
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.textarea-wrap > textarea{
+    width: 100%;
+    resize: none;
+}
+
+.todos{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(193, 131, 131, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.rewards{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(131, 193, 131, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
 .player{
     background-size: cover;
     background-position: center;
