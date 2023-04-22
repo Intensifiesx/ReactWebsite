@@ -1,3 +1,7 @@
+// Description: This is the To-Dos component.
+// Lists all the To-Dos and allows the user to add new To-Dos.
+
+// Import libraries
 import React from "react";
 
 export default function Todos() {

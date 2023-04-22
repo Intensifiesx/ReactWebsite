@@ -1,16 +1,24 @@
-import React, { useState } from "react";
-import PlayerStats from "./SubCategories/PlayerStats";
+// Description: This is where the games and the  
+// react backend showcase will be
+
+// Import our components
+import Skull from "../Images/Skull.png";
+import Todos from "./SubCategories/Todos";
 import Habits from "./SubCategories/Habits";
 import Dailies from "./SubCategories/Dailies";
-import Todos from "./SubCategories/Todos";
 import Rewards from "./SubCategories/Rewards";
-import Skull from "../Images/Skull.png";
+import PlayerStats from "./SubCategories/PlayerStats";
+
+// Import libraries
+import React, { useState } from "react";
 
 export default function Main() {
   const [todos, setTodos] = useState(["Todo 1", "Todo 2", "Todo 3"]);
+
+  // Get the components of the showcase page
   return (
     <>
-      <PlayerStats />
+      <PlayerStats /> 
       <Habits todos={todos} />
       <Dailies />
       <Todos />

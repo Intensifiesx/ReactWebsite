@@ -8,6 +8,16 @@
     text-align: center;
 }
 
+.home{
+    text-align: center;
+    background-color: rgba(232, 24, 24, 0.5);
+}
+
+.sectionNavbar{
+    display: inline-block;
+    padding: 15px;
+}
+
 .bottom-text{
     position: absolute;
     bottom: 10px;
@@ -92,7 +102,7 @@
 }
   
 .clean-button:hover {
-background-color: #6a6a6a;
+    background-color: #6a6a6a;
 }
 
 .clean-button2 {
@@ -107,5 +117,5 @@ background-color: #6a6a6a;
 }
   
 .clean-button2:hover {
-background-color: #6a6a6a;
+    background-color: #6a6a6a;
 }

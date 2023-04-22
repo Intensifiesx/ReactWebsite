@@ -1,3 +1,7 @@
+// Description: This is the Rewards page where the user
+// can add new rewards and check off rewards.
+
+// Import libraries
 import React from "react";
 
 export default function Rewards() {

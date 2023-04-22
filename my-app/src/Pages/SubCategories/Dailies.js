@@ -1,5 +1,11 @@
+// Description: Dailies component that displays the list of dailies
+// the user has to complete.
+
+// Import components
+import "../../Color.css";
+
+// Import libraries
 import React from "react";
-import "../../color.css";
 
 export default function Dailies() {
   return (

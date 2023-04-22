@@ -1,5 +1,10 @@
+// Description: This is the home page of the website
+
+// Import CSS
+import "../Color.css"
+
+// Import libraries
 import React from "react";
-import "./stuff.css"
 
 export default function MainPage() {
   return (
