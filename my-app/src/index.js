@@ -1,10 +1,10 @@
-import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+import ReactDOM from "react-dom";
 import NoPage from "./Pages/NoPage";
+import Layout from "./Pages/Layout";
+import Contact from "./Pages/Contact";
 import Showcase from "./Pages/Showcase";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
@@ -21,4 +21,5 @@ export default function App() {
   );
 }
 
+// Renders the App component into a div with the id of 'root'
 ReactDOM.render(<App />, document.getElementById("root"));
