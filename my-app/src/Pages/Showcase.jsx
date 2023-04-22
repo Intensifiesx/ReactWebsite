@@ -6,6 +6,7 @@ import Todos from "./SubCategories/Todos";
 import Rewards from "./SubCategories/Rewards";
 import Skull from "../Images/Skull.png";
 
+
 export default function Main() {
   const [todos, setTodos] = useState(["Todo 1", "Todo 2", "Todo 3"]);
   return (
