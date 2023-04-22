@@ -8,6 +8,13 @@
     text-align: center;
 }
 
+.bottom-text{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 .header-left{
     text-align: left;
     padding: 20px;

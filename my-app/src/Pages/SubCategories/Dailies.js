@@ -1,4 +1,5 @@
 import React from "react";
+import "../../color.css";
 
 export default function Dailies() {
   return (
