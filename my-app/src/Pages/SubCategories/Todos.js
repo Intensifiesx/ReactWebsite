@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Todos() {
   return (
-    <section>
+    <section className="sectionShowcase">
       <div className="todos textarea-wrap">
         <h1 className="header-left">To-Dos</h1>
         <div>

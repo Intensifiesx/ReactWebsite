@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Habits({ todos }) {
   return (
-    <section>
+    <section className="sectionShowcase">
       {todos.map((todo) => {
         return <HabitList todo={todo} />;
       })}

@@ -3,7 +3,7 @@ import "../../color.css";
 
 export default function Dailies() {
   return (
-    <section>
+    <section className="sectionShowcase">
       <div className="dailies textarea-wrap">
         <h1 className="header-left">Dailies</h1>
         <div>

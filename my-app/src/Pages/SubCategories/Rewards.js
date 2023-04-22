@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Rewards() {
   return (
-    <section>
+    <section className="sectionShowcase">
       <div className="rewards textarea-wrap">
         <h1 className="header-left">Rewards</h1>
         <div>
