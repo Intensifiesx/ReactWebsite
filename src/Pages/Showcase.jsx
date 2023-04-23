@@ -3,17 +3,17 @@
 
 // Import our components
 import Skull from "../Images/Skull.png";
-import Todos from "./SubCategories/Todos";
-import Habits from "./SubCategories/Habits";
-import Dailies from "./SubCategories/Dailies";
-import Rewards from "./SubCategories/Rewards";
-import PlayerStats from "./SubCategories/PlayerStats";
+import Todos from "./Components/Todos";
+import Habits from "./Components/Habits";
+import Dailies from "./Components/Dailies";
+import Rewards from "./Components/Rewards";
+import PlayerStats from "./Components/PlayerStats";
 
 // Import libraries
 import React, { useState } from "react";
 
 export default function Main() {
-  const [todos, setTodos] = useState(["Todo 1", "Todo 2", "Todo 3"]);
+  const [todos] = useState(["Todo 1", "Todo 2", "Todo 3"]);
 
   // Get the components of the showcase page
   return (
