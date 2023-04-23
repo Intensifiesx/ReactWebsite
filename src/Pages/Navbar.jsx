@@ -22,7 +22,7 @@ function getLinkedButtons(to, text){
 // The navbar component
 export default function Navbar() {
   return (
-    <nav>
+    <nav style={{backgroundColor:"black"}}>
       {getLinkedButtons("", "Home")}
       {getLinkedButtons("showcase", "Showcase")}
       {getLinkedButtons("contact", "Contact")}

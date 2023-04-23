@@ -2,6 +2,8 @@
 
 // Import CSS
 import "../Color.css"
+import Bg from "../Images/Bg.jpg";
+import Skull from "../Images/Skull.png";
 
 // Import libraries
 import React, {useEffect} from "react";
@@ -42,21 +44,32 @@ export default function MainPage() {
     stick.rotation.x = Math.PI / 2;
     scene.add(stick);
 
-    const platformGeo = new THREE.BoxGeometry(200, 10, 50);
-    const platformMat = new THREE.MeshStandardMaterial({ color: 0x000000 });
-    const platform = new THREE.Mesh(platformGeo, platformMat);
-    platform.position.set(0, -19, 0);
-    scene.add(platform);
 
     const bgGeo = new THREE.BoxGeometry(210, 210, 20);
-    const bgMat = new THREE.MeshStandardMaterial({ color: 0xF08080 });
-    const bg = new THREE.Mesh(bgGeo, bgMat);
-    bg.position.set(0, 0, -40);
-    scene.add(bg);
+    const loader = new THREE.TextureLoader();
+    let material = new THREE.MeshLambertMaterial({
+      map: loader.load(Bg),
+    });
+
+    var mesh = new THREE.Mesh(bgGeo, material);
+    mesh.position.set(0, 0, -40);
+    scene.add(mesh);
+
+    let time = 0;
 
     const animate = function () {
       requestAnimationFrame(animate);
 
+      torus1.material.color.setRGB(
+        Math.sin(0.1 * time + 0.1), 
+        Math.sin(0.2 * time + 0.2), 
+        Math.sin(0.3 * time + 0.3)
+        );
+      time += 0.01;
+
+      stick.material.color.setRGB(Math.sin(time*0.1), Math.cos(time*0.5), Math.sin(time*0.9));
+          
+      
       torus1.rotateX(0.02);
       torus1.rotateY(0.01);
       torus1.rotateZ(0.006);
@@ -73,12 +86,16 @@ export default function MainPage() {
 
   return (
     // align the canvas to the center of the page
-    <div style={{textAlign: "center"}}>
-      <h1>Home </h1>
-      <p>Hi, this is our website project!!!!</p>
+    <div style={{textAlign: "center", backgroundColor: "cadetblue"}}>
+      <h1 style={{color:"white"}}>Home </h1>
+      <p style={{color:"white"}}>Hi, this is our website project!!!!</p>
       <p>🥳🥳🥳🥳🥳</p>
       <input type="text" placeholder="Type something here"/>
       <canvas id="canvas" style={{display:"block", margin:"0 auto", marginTop:"20px"}}/>
+      <div className="bottom-text" style={{marginBottom:"-290px", backgroundColor:"black", color:"white", padding:"10px"}}>
+        <img src={Skull} alt="Skull" width="50px" height="50px" style={{position:"relative", right: "10px"}}/>
+        ©2023 Made by Silvia and Zain
+      </div>
     </div>
   );
 }
