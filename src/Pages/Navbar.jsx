@@ -13,18 +13,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function getLinkedButtons(to, text){
   return (
   <section className="sectionNavbar">
-<<<<<<< HEAD
     <Link to={"/"+to} style={{textDecoration: 'none'}}>
-      <Button className="btn oppGradientHome fonts" type="submit" size="lg" style={{color:"black"}}>
+      <Button className="button">
         {text}
       </Button>
     </Link>
   
-=======
-    <Button variant="primary" size="lg">
-      <Link to={"/"+to} style={{textDecoration: 'none', color: "#FFFFFF"}}>{text}</Link>
-    </Button>
->>>>>>> c9ab15ac1cd4fbab06b4bd00cb64e03367a70113
   </section>)
 }
 
