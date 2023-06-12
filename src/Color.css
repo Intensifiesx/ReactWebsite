@@ -1,0 +1,139 @@
+.habits{
+    background-size: cover;
+    background-position: center;
+    background-color:aqua;
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fonts{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.oppGradientHome{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #606060 0%, #11e8bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    overflow: hidden;
+}
+
+.gradientHome{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,  #11e8bb 0%,#8200c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    overflow: hidden;
+}
+
+.home{
+    text-align: center;
+    background-color: rgba(232, 24, 24, 0.5);
+}
+
+.sectionNavbar{
+    display: inline-block;
+    padding: 15px;
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-left{
+    text-align: left;
+    padding: 20px;
+}
+
+.sectionShowcase{
+    display: inline-block;
+    width: 300px;
+    padding: 15px;
+}
+
+.textarea-wrap{
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.textarea-wrap > textarea{
+    width: 100%;
+    resize: none;
+}
+
+.todos{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(193, 131, 131, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rewards{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(131, 193, 131, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.player{
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(182, 182, 182, 0.977);
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+}
+
+.dailies{
+    background-size: cover;
+    background-position: center;
+    background-color:burlywood;
+    pad: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.clean-button {
+    background-color: #0df347;
+    border: none;
+    color:black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.clean-button:hover {
+    background-color: #6a6a6a;
+}
+
+.clean-button2 {
+    background-color:#c81717;
+    border: none;
+    color:black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.clean-button2:hover {
+    background-color: #6a6a6a;
+}
