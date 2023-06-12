@@ -8,6 +8,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .fonts{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -26,6 +27,8 @@
     overflow: hidden;
 }
 
+=======
+>>>>>>> c9ab15ac1cd4fbab06b4bd00cb64e03367a70113
 .home{
     text-align: center;
     background-color: rgba(232, 24, 24, 0.5);
